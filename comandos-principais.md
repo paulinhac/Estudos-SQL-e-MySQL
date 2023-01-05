@@ -19,6 +19,6 @@ DROP TABLE nome_tabela - apagar tabela
 
 ALTER TABLE nome_tabela ADD COLUMN (NOME_COLUNA TIPO_DE_DADO) - Add coluna
 
-UPDATE nome_tabela SET NOME_COLUNA = 'novo dado'  WHERE CHAVE PRIMÁRIA = chave primária - Atualizar um dado da tabela 
+UPDATE nome_tabela SET NOME_COLUNA = 'novo dado'  WHERE CHAVE PRIMÁRIA = 'chave primária' - Atualizar um dado da tabela 
 
 INSERT INTO nome_tabela( NOME_COLUNA, ...) VALUES ( 'dados', ...) - Inserir novas linhas na tabela!
